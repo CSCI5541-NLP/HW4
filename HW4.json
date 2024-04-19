@@ -1,0 +1,602 @@
+[
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Translate Who are you to Hindi",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "आप कौन हैं?",
+    "generated response": "मैं कौन हूँ (Main kaun hoon) - I am who?'",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Learn from these examples and answer the last question only. \nQuestion: Translate How are you to Hindi \nAnswer: आप कैसे हैं? \nQuestion: Translate what is your name to Hindi. \nAnswer: आपका क्या नाम है? \nQuestion: Translate Who are you? to Hindi \nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "आप कौन हैं?",
+    "generated response": "आप कैसे हैं (You are)\\n\\nआपका क्या नाम है (What is your name)\\n\\nमैं कौन हूँ (Who am I)",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If कौन means who, हूँ means am, and आप means You. Translate Who are you to Hindi",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "आप कौन हैं?",
+    "generated response": "हूँ आप (hoon aap) - I am you.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Translate Who are you to Bengali",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "আপনি কে?",
+    "generated response": "তোমার আমার আপনার আমি (Tomār āmār āponār āmi) - I am your servant/assistant.'",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Learn from these examples and answer the last question only. \nQuestion: Translate How are you to Bengali. \nAnswer: আপনি কেমন আছেন? \nQuestion: Translate what is your name to Bengali.  \nAnswer: আপনার নাম কি? \nQuestion: Translate Who are you? to Bengali. \nAnswer: \n",
+    "prompting_steup": "Few shot",
+    "Expected Response": "আপনি কে?",
+    "generated response": "আপনি কেমন আছেন? (How are you?)\\nআপনার নাম কি? (What is your name?)\\nআপনি কেউ আছেন? (Who are you?)",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If আপনি means You, কে  means Who. Translate Who are you to Bengali",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "আপনি কে?",
+    "generated response": "আপনি কে আপনার আত্মান্তরে আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার আত্ম আপনার",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Translate Who are you to Odia",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "ତୁମେ କିଏ",
+    "generated response": "କୋରି କି ଆପଣ କି ମେଲି ଆପଣଙ୍କ ପ୍ରତି କି ଆପଣ କି ପ୍ରତି କରିବା ପାଇଁ କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି କରିବା ଆପଣ କି ପ୍ରତି - Cory, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you, you What do you do? What do you do? What do you do?",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Learn from these examples and answer the last question only. Question: Translate How are you to Odia\nAnswer: କେମିତି ଅଛନ୍ତି, କେମିତି ଅଛ?\nQuestion: Translate what is your name to Odia \nAnswer: ତୁମର ନାମ କଣ?\nQuestion: Translate Who are you? to Odia\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "ତୁମେ କିଏ",
+    "generated response": "କେମିତି ଅଛନ୍ତି, କେମିତି ଅଛ? (How are you?)\\n\\nତୁମର ନାମ କଣ? (What is your name?)\\n\\nକେମିତି ଅଛନ୍ତି? (Who are you?)",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If କିଏ means who, ତୁମେ  means you. Translate Who are you to Odia",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "ତୁମେ କିଏ",
+    "generated response": "ତୁମେ କିଏ! (Tume ki e!) which means \"I am you!\" in Odia.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Translate Who are you to Spanish",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "¿Quién eres?",
+    "generated response": "¡Soy un asistente amable y conciso! ¿En qué puedo ayudarte? - \nI am a friendly and concise assistant! How can I help you?",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Learn from these examples and answer the last question only. \nQuestion: Translate How are you to Spanish\nAnswer: Cómo estás\nQuestion: Translate what is your name to Spanish \nAnswer: ¿Cómo te llamas?\nQuestion: Translate Who are you? to Spanish\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "¿Quién eres?",
+    "generated response": "¿Quién eres tú? (Who are you?)\\n\\nNote: The last answer is a question in Spanish, which is appropriate since the previous questions were also asked in Spanish.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If Quién means who, Tú  means you. Translate Who are you to Spanish",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "¿Quién eres?",
+    "generated response": "Soy Tú. (I am you.)",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Translate Who are you to Korean?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "누구세요?\nnuguseyo?",
+    "generated response": "사라있는 너의 반응을 찾습니다. (Sarajitneun neo-ui bang-eob-il cho-eob-ni-da.)\\n\\nTranslation: I am searching for your lost response.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Learn from these examples and answer the last question only. \nQuestion: Translate How are you to Korean\nAnswer: 어떻게 지내세요?\nQuestion: Translate what is your name to Korean \nAnswer: 이름이 뭐에요?\nQuestion: Translate Who are you? to Korean\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "너는 누구에요?",
+    "generated response": "",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If 어떻게 지내세요 means how are you. Translate Who are you to Korean",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "너는 누구에요?",
+    "generated response": "너는 누구예요? (neoneun nuguseyo?) is the translation of \"Who are you?\" in Korean.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and follow the task. Translate কিংকর্তব্যবিমূঢ to English",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Confused",
+    "generated response": "কিংকর্তব্যবিমূঢ is Bengali for \"kind words\".",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and understand the task. Then only answer the last question. \nQuestion: Translate অশ্রুজল to English\nAnswer: Tears\nQuestion: Translate to কর্তব্য English\nAnswer: duty\nQuestion: Translate কিংকর্তব্যবিমূঢ to English\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Confused",
+    "generated response": "অশ্রুজল - Tears\\nকর্তব্য - Duty\\nকিংকর্তব্যবিমূঢ - [No answer]",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If কিং means what কর্তব্ means duty. Translate কিংকর্তব্যবিমূঢ to English",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Confused",
+    "generated response": "কিংকর্তব্যবিমূঢ can be translated to English as \"duty towards the country\" or \"national duty",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and follow the task. Translate अकल का दुश्मन to English.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Enemy of Common sense",
+    "generated response": "अकल का दुश्मन can be translated to English as \"evil spirit\".'",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Question: Translate खून का प्यासा to English\nAnswer: Thirsty for blood\nQuestion: Translate to खून ठण्डा होना English\nAnswer: Blood cooling down\nQuestion: Translate to अकल का दुश्मन English\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Enemy of Common sense",
+    "generated response": "अकल का दुश्मन can be translated to \"mortal enemy\" in English.\\n\\nPlease note that I have understood the task and will only answer the last question.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If अकल means Intelligence दुश्मन means enemy. Translate अकल का दुश्मन to English",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Enemy of Common sense",
+    "generated response": "अकल का दुश्मन can be translated to English as \"intelligence\\'s enemy\" or \"enemy of intelligence",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and follow the task. Translate Abrir la caja de los truenos to English.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "To open a can of Worms",
+    "generated response": "Sure thing! \"Abrir la caja de los truenos\" translates to \"Open the thunderbox\" in English.'",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and understand the task. Then only answer the last question. \nQuestion: Translate Encontrar tu media naranja to English\nAnswer: to find the love of your life\nQuestion: Translate to Ahogarse en un vaso de agua English\nAnswer: to make a problem bigger than it is\nQuestion: Translate to Abrir la caja de los truenos English\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "To open a can of Worms",
+    "generated response": "Sure thing! Here are the translations you requested:\\n\\n* Encontrar tu media naranja translates to \"to find the love of your life\" in English.\\n* Ahogarse en un vaso de agua translates to \"to make a problem bigger than it is\" in English.\\n* Abrir la caja de los truenos translates to \"to open the box of thunder\" in English.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If Abrir la caja de los truenos means Open the box of thunder in Spanish. Translate an equivalent idiom to English",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "To open a can of Worms",
+    "generated response": "Sure thing! The equivalent idiom in English for \"Abrir la caja de los truenos\" would be \"unleash the beast\" or \"let the cat out of the bag.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and follow the task. Translate ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା to English",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "My car broke down while coming here",
+    "generated response": "ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା can be translated to English as \"How much is the cost of this car?\"\\n\\nHere\\'s the breakdown of the translation:\\n\\n* ଏଠାକୁ: This is the object pronoun meaning \"this\" or \"these\".\\n* ଆସିବାବେଳେ: This is the verb \"to cost\" in the present tense.\\n* ମୋ: This is the object pronoun meaning \"my\" or \"your\".\\n* କାର: This is the noun \"car\".\\n* ଭାଙ୍ଗି: This is the verb \"to be\" in the present tense, used to indicate the state of the car.\\n* ଯାଇଥିଲା: This is the adverb \"how much\".\\n\\nSo the entire sentence ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା can be translated to English as \"How much is the cost of this car?\"'",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and understand the task. Then only answer the last question. \nQuestion: Translate ଆରେ ତୁମର କାର ସୁନ୍ଦର! to English\nAnswer: Hey your car is nice!\nQuestion: Translate to ତାଙ୍କ କାର ମହଙ୍ଗା! English\nAnswer: His car is expensive!\nQuestion: Translate  ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା to English\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "My car broke down while coming here",
+    "generated response": "Sure, I'd be happy to help!\\n\\nQuestion: Translate ଆରେ ତୁମର କାର ସୁନ୍ଦର! to English\\nAnswer: Hey your car is nice!\\n\\nQuestion: Translate to ତାଙ୍କ କାର ମହଙ୍ଗା! English\\nAnswer: His car is expensive!\\n\\nQuestion: Translate  ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା to English\\nAnswer: Your car is very beautiful!",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If ଏଠାକୁ means here, ଆସିବାବେଳେ means on arrival, କାର means car, ଭାଙ୍ଗି means broken Translate ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା to English",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "My car broke down while coming here",
+    "generated response": "Sure, I\\'d be happy to help! Here\\'s the translation of ଏଠାକୁ ଆସିବାବେଳେ ମୋ କାର ଭାଙ୍ଗି ଯାଇଥିଲା to English:\\n\\n\"The car that I was supposed to arrive in is broken.\"\\n\\nHere\\'s a breakdown of the translation:\\n\\n* ଏଠାକୁ (eka ku) means \"here\" or \"in this place\".\\n* ଆସିବାବେଳେ (aasi baabu velu) means \"on arrival\" or \"upon arrival\".\\n* ମୋ (mo) is the object pronoun meaning \"my\" or \"mine\".\\n* କାର (kaar) means \"car\".\\n* ଭାଙ୍ଗି (baangi) means \"broken\".\\n* ଯାଇଥିଲା (yaa iithilaa) is the verb \"to be\" in the present tense, meaning \"is\" or \"are\".\\n\\nI hope that helps! Let me know if you have any other questions.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and follow the task. Translate 할머니는 요리를 어떻게 그렇게 잘 하시나요? to English.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "How does your grandmother cook so well",
+    "generated response": "Sure, I\\'d be happy to help! The sentence \"할머니는 요리를 어떻게 그렇게 잘 하시나요?\" can be translated to English as \"How does your mother-in-law cook so well?\"\\n\\nHere\\'s a breakdown of the sentence:\\n\\n* 할머니 (hal-meoni) - mother-in-law\\n* 요리 (yo-ri) - cook\\n* 어떻게 (eo-tt-gae) - how\\n* 그렇게 (geu-reok-gae) - so well\\n* 잘 (jal) - well\\n* 하시나요 (hah-shi-na-yo) - do you\\n\\nI hope that helps! Let me know if you have any other questions.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "Recognise the language and understand the task. Then only answer the last question. \nQuestion: Translate 우리 엄마는 맛있는 음식을 요리해요 to English\nAnswer: My mom cooks amazing food\nQuestion: Translate to 내 친구들과 나는 요리 행사에 갈 거예요 English\nAnswer: My friends and I are going to a cooking event\nQuestion: Translate 할머니는 요리를 어떻게 그렇게 잘 하시나요? to English\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "How does your grandmother cook so well",
+    "generated response": "Sure, I'd be happy to help! Here are the translations you requested:\\n\\n1. 우리 엄마는 맛있는 음식을 요리해요 - My mom cooks amazing food\\n2. 내 친구들과 나는 요리 행사에 갈 거예요 - My friends and I are going to a cooking event\\n3. 할머니는 요리를 어떻게 그렇게 잘 하시나요? - How does your grandmother cook so well?",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Application of NLP Tasks",
+    "task_prompt": "If 할머니는 means grandmother, 요리를େ means cooking, 어떻게  means how, 그렇게 잘 means so well. Translate 할머니는 요리를 어떻게 그렇게 잘 하시나요? to English",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "How does your grandmother cook so well",
+    "generated response": "할머니는 요리를 어떻게 그렇게 잘 하시나요? can be translated to English as \"How well does your grandmother cook?\" or \"How skilled is your grandmother at cooking?\"\\n\\nHere\\'s a breakdown of the Korean sentence:\\n\\n* 할머니는: This is the subject marker \"는\" followed by the noun \"할머니\" which means \"grandmother\".\\n* 요리를: This is the object marker \"를\" followed by the noun \"요리\" which means \"cooking\".\\n* 어떻게: This is the adverb \"어떻게\" which means \"how\".\\n* 그렇게: This is the adverb \"그렇게\" which means \"so well\" or \"so skillfully\".\\n* 잘: This is the adverb \"잘\" which means \"well\" or \"skillfully\".\\n\\nSo the entire sentence 할머니는 요리를 어떻게 그렇게 잘 하시나요? can be translated to English as \"How well does your grandmother cook?\" or \"How skilled is your grandmother at cooking?",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "How long will it take for a human to walk to north pole?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Time taken will depend on the starting point",
+    "generated response": "Oh my! Walking to the North Pole? That's quite a trek!  It would take a very long time, my friend. The North Pole is located in the Arctic Ocean, and the only way to get there is by boat or by flying. \\u200d \\n\\nIf you were to walk, it would take you around 60-90 days to reach the North Pole, depending on the route you take and the weather conditions.  However, it's not possible to walk to the North Pole because there is no land route, and the ice and snow would make it extremely difficult and dangerous. \\n\\nI hope that helps! Is there anything else you'd like to know?",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: How long will it take for a human to walk to north pole?\nAnswer: For a person in United States of America it would take a human to walk for 48.21 days without stopping. \nQuestion: How long will it take for a human to walk 4,000 miles?\nAnswer: On average a human would take 55-60 days without stopping.\nQuestion: How long will it take for a human to walk to the north pole?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Time taken will depend on the starting point",
+    "generated response": "48.21 days",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If a person walks a 3 mile in a hour, and the north pole is 4,000 miles away from USA, how long would he take to walk to the north pole",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Time taken will depend on the starting point",
+    "generated response": "To calculate the time it would take to walk to the North Pole, we need to know the distance between the USA and the North Pole. The North Pole is approximately 4,000 miles away from the USA.\\n\\nIf a person walks at a rate of 3 miles per hour, they would cover:\\n\\n4,000 miles / 3 miles per hour = 1,333.33 hours\\n\\nTherefore, it would take approximately 1,333.33 hours, or approximately 54.45 days, to walk to the North Pole from the USA.\\n\\nPlease note that this calculation assumes a constant walking speed and does not take into account any obstacles or rest periods. Additionally, it's important to note that walking to the North Pole is not a feasible or safe endeavor, as it is located in the Arctic Ocean and is covered in ice and snow for most of the year.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If i jump from a building terrace it takes me 5 secs to reach the ground but if i jump from a building with a parachute it takes me 30 secs to reach the ground. How long will it take if i jump from a building that has 12 floors and I jump from the first floor?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Less than 5 seconds.",
+    "generated response": "5 seconds.\\n\\nExplanation: The time it takes to reach the ground from the first floor of a building is the same as the time it takes to reach the ground from the terrace, as there is no parachute to slow down the fall.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: If a person jumps from the terrace of a 12 story building he takes 3 secs to reach the ground.How long will he take if he jumps from the 10th floor?\nAnswer: It will take the person less than 3 secs. The person should reach the ground in around 2.8 secs. \nQuestion: If a person jumps from a 30 story building with a parasuit he reaches the ground in 30 secs. How long will it take for a person without parasuit to reach the ground?\nAnswer: It will take the person less than 30 secs. The person will reach the ground in about 5-7 secs.\nQuestion: If i jump from a building terrace it takes me 5 secs to reach the ground but if i jump from a building with a parachute it takes me 30 secs to reach the ground. How long will it take if i jump from a building that has 12 floors and I jump from the first floor?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Less than 5 seconds.",
+    "generated response": "5 secs.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If i jump from a building terrace it takes me 5 secs to reach the ground but if i jump from a building with a parachute it takes me 30 secs to reach the ground. How long will it take if i jump from a building that has 12 floors and I jump from the first floor?. Please understand that the distance of the ground from the first floor is different from the terrace of the building.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Less than 5 seconds.",
+    "generated response": "If you jump from the first floor of a building with 12 floors, it will take you approximately 3-4 seconds to reach the ground, assuming a constant acceleration due to gravity. This is because the distance from the first floor to the ground is relatively short, and the acceleration due to gravity is not significantly affected by the height of the building.\\n\\nHowever, if you jump from the terrace of the same building, it would take you approximately 5 seconds to reach the ground, as the distance from the terrace to the ground is greater than from the first floor.\\n\\nPlease note that these times are approximate and can vary depending on factors such as air resistance and the specific height of the building.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If i throw a stone from a hilltop, at a 45 degree angle the stone comes down after travelling 5 meteres. If it throw the same stone again from the top a building, which building will it fall on?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "it should travel 5 meteres and fall accordingly.",
+    "generated response": "Ha! That's a clever question! If you throw the stone from the top of a building at a 45 degree angle, it will fall on the ground below, but not on the building itself. The stone will continue to travel in a straight line until it reaches the ground, regardless of the height of the building. So, the building will not be affected by the stone's trajectory.\\n\\nHowever, if you throw the stone from a great enough height, it could potentially cause damage to the building or its occupants if it were to hit them. So, it's important to be mindful of your surroundings and the potential consequences of your actions when throwing objects from great heights.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: If I throw a stone at 45 degree angle it travels for 5 meteres. How far will the stone travel in distance if i drop it from the terrace of a building?\nAnswer: It will not be far from the building. It just drops down and will not travel a distance. \nQuestion: If i throw a stone from the terrace of a building it takes a projectile path and travels 2 secs. How far will the stone fall from the building?\nAnswer: The stone will travel depending on the force of the throw. It will travel the most distance if the angle was of 45 degrees.\nQuestion: If i throw a stone from a hilltop, at a 45 degree angle the stone comes down after travelling 5 meteres. If it throw the same stone again from the top a building, which building will it fall on?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "it should travel 5 meteres and fall accordingly.",
+    "generated response": "The stone will fall on the building that is directly below the point where it was thrown from.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If i throw a stone from a hilltop, at a 45 degree angle the stone comes down after travelling 5 meteres. \nIf it throw the same stone again from the top a building, which building will it fall on? All other factors are kept constant.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "it should travel 5 meteres and fall accordingly.",
+    "generated response": "Hello! I'm happy to help you with your question. If you throw a stone from a hilltop at a 45 degree angle, it will travel 5 meters before it hits the ground. However, if you throw the same stone from the top of a building, it will not fall on the building. Instead, it will continue to travel in a straight line until it reaches the ground, taking into account the height of the building and the angle of the throw.\\n\\nSo, to determine which building the stone will fall on, we need to know the height of the building and the angle of the throw. If we assume that the building is the same height as the hilltop, and we use the same angle of 45 degrees, the stone will fall on the ground in front of the building, not on the building itself.\\n\\nI hope this helps! Let me know if you have any other questions.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Consider a well, it takes 3 minutes to take out water from it. If the water level went down overnight how long will Maria take to draw water from the well in the morning?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Less than 3 mins",
+    "generated response": "3 minutes! The water level has gone down overnight, so Maria will take 3 minutes to draw water from the well in the morning.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: A person walks to a breakfast van in 10 minutes. Next day the van is parked a little farther from its usual place, How long will the person take to reach the van?\nAnswer: The person will reach the van in a little more than 10 minutes maybe 11-12 minutes.\nQuestion: Gini cooks for 3 people every day in 2 hours. One day, her 2 friends came in to surprise her. How long will it take Gini to cook for all the people?\nAnswer: If Gini makes food for 2 friends in the same proportion as her regular cooking, She would need more than 2 hours to cook.\nQuestion: Consider a well, it takes 3 minutes to take out water from it. If the water level went down overnight how long will Maria take to draw water from the well in the morning?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Less than 3 mins",
+    "generated response": "Sure, I'll be happy to help! Here's the answer to the last question:\\n\\nQuestion: Consider a well, it takes 3 minutes to take out water from it. If the water level went down overnight, how long will Maria take to draw water from the well in the morning?\\n\\nAnswer: Maria will take 3 minutes to draw water from the well in the morning, just like any other day. The water level going down overnight doesn't affect the time it takes to draw water from the well.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Consider a well, it takes 3 minutes to take out water from it. \nIf the water level went down overnight how long will Maria take to draw water from the well in the morning?Since the ater level went down, \nthe time required for the bucket to reach the water and come back up increases.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Less than 3 mins",
+    "generated response": "The amount of time it takes for Maria to draw water from the well in the morning will be longer than the 3 minutes it normally takes, as the water level went down overnight. \\nTo calculate the new time, we need to know how much the water level decreased overnight. \\nLet's say the water level decreased by 5 feet. \\nIn that case, the time it takes for the bucket to reach the water and come back up will be 5 minutes longer than usual, for a total of 8 minutes.",
+    "Success/failure": "success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Imagine you are person walking down the street somebody taps your shoulder. Which way would you look?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Look in the direction of tap",
+    "generated response": "90 degrees to the right.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: If I walk down the street and somebody calls me from the northwest direction, Which way should I look to find the person calling me?\nAnswer: I will look around and see which direction the voice is coming from.\nQuestion: If John walks down the road and a car honks from behind, what should he do?\nAnswer: John should look behind to see the car approaching and move out of the way to safe distance.\nQuestion: Imagine you are person walking down the street somebody taps your shoulder. Which way would you look?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Look in the direction of tap",
+    "generated response": "Based on the information provided, if someone taps your shoulder while you are walking down the street, you should look in the direction of the tap, as that is likely where the person who tapped you is located.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Imagine you are person walking down the street somebody taps your shoulder. Which way would you look? \nMost people turn in the direction of tap.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Look in the direction of tap",
+    "generated response": "I would look in the direction of the tap. Most people tend to turn towards the source of the stimulus, such as a tap on the shoulder, as it is a natural human response to investigate and respond to potential threats or opportunities",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Convert 9PM in India to Minneapolis time.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "10:30 AM",
+    "generated response": "9PM in India is equivalent to 8:30AM in Minneapolis.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: 1PM in India is what time in New york?\nAnswer: 3:30 AM the same day.\nQuestion: 3AM in Tokyo is what time in San Francisco?\nAnswer: 11:00 AM the previous day.\nQuestion: Convert 9PM in India to Minneapolis time.\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "10:30 AM",
+    "generated response": "11:30 PM",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If minneapolis follows the Central daylight saving time which is 10 hours and 30 minutes behind Indian Standard time, Convert 9PM in India to Minneapolis time.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "10:30 AM",
+    "generated response": "9PM in India is equivalent to 12:30AM in Minneapolis.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "How much time has elapsed from 8:35AM to 10:45 PM? Answer in hours and minutes.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "14 hours and 10 minutes",
+    "generated response": "12 hours and 50 minutes have elapsed from 8:35 AM to 10:45 PM",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: 1 PM to 3PM is how many hours and how many minutes?\nAnswer: 2 hours and 0 minutes.\nQuestion: 4:30 AM to 7:00 AM is how many hours and how many minutes?\nAnswer: 2 hours and 30 minutes.\nQuestion: How much time has elapsed from 8:35AM to 10:45 PM? Answer in hours and minutes.\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "14 hours and 10 minutes",
+    "generated response": "10 hours and 10 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If time difference between 8:35AM to 8:35 PM is 12 hours, How much time has elapsed from 8:35AM to 10:45 PM? Answer in hours and minutes.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "14 hours and 10 minutes",
+    "generated response": "The time difference between 8:35 AM and 8:35 PM is 12 hours.\\n\\nTo find the time elapsed from 8:35 AM to 10:45 PM, we need to add the time difference of 12 hours to 8:35 AM.\\n\\n8:35 AM + 12 hours = 8:35 PM\\n\\nTherefore, the time elapsed from 8:35 AM to 10:45 PM is:\\n\\n8:35 PM + 2 hours (from 8:35 PM to 10:45 PM) = 10:45 PM\\n\\nSo, the total time elapsed from 8:35 AM to 10:45 PM is 12 hours and 2 hours, which is 14 hours and 2 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If my flight from Delhi, India takes off at 7PM on April 1st and lands in Minneapolis at 14:30 on April 2nd. How long was I sitting in the plane for?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "29 hours 50 mins.",
+    "generated response": "The flight from Delhi, India to Minneapolis takes approximately 16 hours and 30 minutes. So, you will be sitting in the plane for 16 hours and 30 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: A flight takes off from the Denver airport at 5:11AM and lands in Minneapolis at 8:11AM. How long was the flight for?\nAnswer: 2 hours and 0 minutes.\nQuestion: A flight takes off from the Seattle airport at 11:25AM and lands in Tokyo at 2:15PM the next day?\nAnswer: 10 hours and 50 minutes\nQuestion: If my flight from Delhi, India takes off at 7PM on April 1st and lands in Minneapolis at 14:30 on April 2nd. How long was I sitting in the plane for?\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "29 hours 50 mins.",
+    "generated response": "16 hours and 30 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If minneapolis follows the Central daylight saving time which is 10 hours and 30 minutes behind Indian Standard time,If my flight from Delhi, India takes off at 7PM on April 1st and lands in Minneapolis at 14:30 on April 2nd. How long was I sitting in the plane for?",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "29 hours 50 mins.",
+    "generated response": "If Minneapolis follows Central Daylight Saving Time, which is 10 hours and 30 minutes behind Indian Standard Time, and your flight from Delhi, India takes off at 7 PM on April 1st and lands in Minneapolis at 14:30 on April 2nd, then you would have been sitting in the plane for 16 hours and 30 minutes.\\n\\nHere's the calculation:\\n\\n7 PM Indian Standard Time on April 1st is equal to 10:30 PM Central Daylight Saving Time on April 1st (since CDT is 10 hours and 30 minutes behind IST)\\n\\n10:30 PM CDT on April 1st is equal to 12:30 AM CDT on April 2nd (since CDT is on Daylight Saving Time)\\n\\n12:30 AM CDT on April 2nd is equal to 14:30 PM CDT on April 2nd (since CDT is 10 hours and 30 minutes behind IST)\\n\\nTherefore, you would have been sitting in the plane for 16 hours and 30 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "You left home at 2PM, You visited a coffee shop, drank coffee and then went to a friend's place at 10:30PM for a party. You returned home, at 3:30 AM the next day. How long have you been out of home?",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "13 hours 30 minutes",
+    "generated response": "7 hours and 30 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: John goes out for two hours and comes back at 6PM when did he leave?\nAnswer: 4PM.\nQuestion: Tasneem writes an exam for 30 mins, and then she goes out with her friends to party, the party got extended and she comes back home at midnight. Assuming she started the exam at 4PM, how long was she out?\nAnswer: 7 hours and 30 minutes\nQuestion: You left home at 2PM, You visited a coffee shop, drank coffee and then went to a friend's place at 10:30PM for a party. You returned home, at 3:30 AM the next day. How long have you been out of home?\"\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "13 hours 30 minutes",
+    "generated response": "7 hours and 30 minutes.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If time difference between 7:35AM to 8:35 PM is 13 hours, How much time has elapsed from 8:35AM to 10:45 PM. You left home at 2PM, You visited a coffee shop, drank coffee and then went to a friend's place at 10:30PM for a party. You returned home, at 3:30 AM the next day. How long have you been out of home?",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "13 hours 30 minutes",
+    "generated response": "The time difference between 7:35 AM and 8:35 PM is 13 hours.\\n\\nFrom 8:35 AM to 10:45 PM, the time elapsed is 14 hours and 10 minutes.\\n\\nYou left home at 2 PM, so you were out of home for 12 hours and 30 minutes (from 2 PM to 3:30 AM the next day)",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Everyday I sleep for 8 hours. My parents from India call me everyday at 9AM IST. What time should I sleep so that I don't miss their call? My usual bed time is about 10PM. I live in Minneapolis.",
+    "prompting_steup": "Zero shot",
+    "Expected Response": "Plan to sleep after 10:30 PM to attend the call from India which is at 9AM IST",
+    "generated response": "Hi there! I can help you with that. To ensure you don't miss your parents' call from India, you should aim to wake up at around 6:30 AM IST (Indian Standard Time) to account for the 9 AM call. This would be around 8:30 PM EST (Eastern Standard Time) in Minneapolis. So, you should plan to go to bed at around 6 PM EST to get 8 hours of sleep and wake up at 8:30 PM EST to receive your parents' call.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "Understand the task. Then only answer the last question. \nQuestion: A client from India wants to get on a meeting with a US based investor in Seattle , The office hours for the client is 9AM-5PM and the investor's office hours are 8AM to 4PM. Assuming the investor can extend his hours, what time is a good time to meet? \nAnswer: 8:30 PM should be fine for the investor to meet with his Indian client.\nQuestion: Tom Holland went on a trip to london and needs to call back zendaya at 10 PM Los Angeles time. What time at london should he make the call? \nAnswer: He should call her at 6:00 AM to reach zendaya at 10 PM LA time. \nQuestion: Everyday I sleep for 8 hours. My parents from India call me everyday at 9AM IST. What time should I sleep so that I don't miss their call? My usual bed time is about 10PM. I live in Minneapolis.\nAnswer:",
+    "prompting_steup": "Few shot",
+    "Expected Response": "Plan to sleep after 10:30 PM to attend the call from India which is at 9AM IST",
+    "generated response": "I understand that you want me to answer the last question. Here's my response:\\n\\nTo avoid missing your parents' call from India at 9 AM IST, you should aim to wake up at 6 AM Minneapolis time. This will give you enough time to get ready and be awake for their call at 9 AM IST.",
+    "Success/failure": "Failure",
+    "llm setting": "NA"
+  },
+  {
+    "LLm name": "Llama 2",
+    "Category": "Temporal/Spatial reasoning",
+    "task_prompt": "If minneapolis follows the Central daylight saving time which is 10 hours and 30 minutes behind Indian Standard time, Convert 9PM in India to Minneapolis time.\nEveryday I sleep for 8 hours. My parents from India call me everyday at 9AM IST. What time should I sleep so that I don't miss their call? My usual bed time is about 10PM. I live in Minneapolis.",
+    "prompting_steup": "Chain of Thought",
+    "Expected Response": "Plan to sleep after 10:30 PM to attend the call from India which is at 9AM IST",
+    "generated response": "9PM Indian Standard Time is equivalent to 10:30PM Central Daylight Time in Minneapolis. If you usually go to bed at 10PM, you should adjust your bedtime to 11:30PM to ensure you don't miss your parents' 9AM IST call. This will allow you to sleep for 8 hours and wake up at 7:30AM CDT, which is 8:30AM IST.",
+    "Success/failure": "Success",
+    "llm setting": "NA"
+  }
+]
